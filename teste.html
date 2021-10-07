@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <style>
+
+    *{
+      
+    }
+
+    body{
+      font-family: sans-serif;
+      margin: 0 auto;
+      padding: 0 auto;
+      
+    }
+
+    nav{
+      width: 100%;
+      height: 50px;
+      background-color: rgb(0, 255, 255);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      
+
+    }
+
+    img{
+      margin-left: 50px;
+    }
+
+    ul{
+      margin-right: 50px;
+      display: flex;
+      gap: 2em;
+
+     
+    }
+
+    ul li{
+      display: inline;
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(0, 110, 110);
+      row-gap:50px;
+      transition: 0.2s;
+      
+      
+      
+
+    }
+
+    ul li:hover{
+      color:white;
+      transition: 0.5s;
+      text-decoration:underline;
+
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    #box:nth-child(n){
+      width: 100%;
+      height: 100vh;
+      background-color: red;
+    }
+
+    #box:nth-child(2){
+      background-color: rgb(47, 255, 210);
+    }
+
+    #box:nth-child(3){
+      background-color: rgb(47, 61, 255);
+    }
+
+        #box:nth-child(4){
+      background-color: rgb(255, 47, 161);
+    }
+
+    
+
+    
+
+
+
+  </style>
+
+  <nav>
+
+    <img src="#" alt="Logotipo">
+
+    <ul>
+
+      <a href="#box1"><li>Home</li></a>
+      <a href="#box2"><li>Sobre</li></a>
+      <a href="#box3"><li>Fotos</li></a>
+      <a href="#box4"><li>Contatos</li></a>
+
+    </ul>
+
+  </nav>
+
+  <header>
+
+    <div id="box"></div>
+    <div id="box"></div>
+    <div id="box"></div>
+    <div id="box"></div>
+        
+     
+
+  </header>
+  
+</body>
+</html>
